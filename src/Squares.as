@@ -13,7 +13,7 @@ package
 			SaveBestTime.load();
 			if(SaveBestTime.bestTime == 0)
 			{
-				SaveBestTime.bestTime == 40;
+				SaveBestTime.bestTime = 40;
 			}
 			Registry.theBestTime = SaveBestTime.bestTime;
 		}
